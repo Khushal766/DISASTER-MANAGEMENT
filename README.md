@@ -31,8 +31,7 @@ MySQL Server (v5.7 or higher)
 
 setup:---
 1. Clone the Repository
-bash
-git clone https://github.com/your-username/disasteraid.git
+bash git clone https://github.com/Khushal766/DISASTER-MANAGEMENT
 cd disasteraid
 
 
@@ -117,52 +116,3 @@ Navigate to "Request Assistance"
 Select the type of assistance needed
 Provide details about your situation and contact information
 
-Project Structure 📁
-text
-disasteraid/
-├── backend/
-│   ├── config/
-│   │   └── database.js
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── scripts/
-│   ├── .env
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── documentation/
-└── README.md
-Environment Variables 🔧
-Create a .env file in the backend directory with the following variables:
-
-env
-PORT=5000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-DB_NAME=disasteraid
-JWT_SECRET=your_jwt_secret_key_here
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
-NODE_ENV=development
-Contributing 🤝
-We welcome contributions to DisasterAid! Please follow these steps:
-Fork the repository
-Create a feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
-
-Future Enhancements 🚀
-Real-time notifications with WebSockets
-Mobile application version
-Integration with weather APIs
-SMS alert system
-Volunteer management system
-Multi-language support
-Advanced reporting and analytics
